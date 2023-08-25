@@ -27,7 +27,7 @@ git clone https://github.com/Aaronbunting/Pychain.git
 ```
 pip install streamlit pandas
 ```
-How to Use
+## How to Use
 
 3. Transition to the project's directory via the command line:
 ```
