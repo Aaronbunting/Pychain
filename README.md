@@ -16,34 +16,38 @@ Ensure your machine runs Python 3.6 or a newer version.
 
 To get the project:
 
-C1lone the repository:
-bash
-Copy code
+1. Clone the repository:
 
 ```
-git clone "git@github.com:aaronbunting/Pychain.git"
+git clone https://github.com/Aaronbunting/Pychain.git
 ```
 
-Set up the necessary Python modules:
-Copy code
+2. Set up the necessary Python modules:
+
+```
 pip install streamlit pandas
+```
 How to Use
 
-Transition to the project's directory via the command line:
-bash
-Copy code
+3. Transition to the project's directory via the command line:
+```
 cd pychain
-Initiate the Streamlit tool:
-arduino
-Copy code
+```
+
+4. Initiate the Streamlit tool:
+
+```
 streamlit run pychain.py
+
+```
+
 Upon launch in your browser, input transaction details such as sender, recipient, and transaction value, then hit "Add Block."
 
 You can analyze the blockchain by picking a block using the "Block Inspector" menu. The details of the chosen block will be showcased.
 
 For a thorough blockchain check, press the "Validate Chain" option.
 
-Visual Aids
+## Visual Aids
 
 Below are some visual previews of the Streamlit interface:
 
